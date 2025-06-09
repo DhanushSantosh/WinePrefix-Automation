@@ -1,0 +1,27 @@
+# Maintainer: Dhanush <your-email@example.com>
+pkgname=wine-prefix-automation
+pkgver=1.0.0
+pkgrel=1
+pkgdesc="A GUI tool for creating and managing Wine prefixes with ease"
+arch=('any')
+url="https://github.com/yourusername/wine-prefix-automation"
+license=('MIT')
+depends=('wine' 'zenity' 'git')
+optdepends=('winetricks: For installing Windows components'
+            'lutris: For additional Wine versions')
+install=wine-prefix-automation.install
+source=()
+sha256sums=()
+
+package() {
+    cd "$startdir"
+    
+    # Install the main script
+    install -Dm755 "src/wine-prefix-automation.sh" "$pkgdir/usr/bin/wine-prefix-automation"
+    
+    # Install desktop entry
+    install -Dm644 "src/wine-prefix-automation.desktop" "$pkgdir/usr/share/applications/wine-prefix-automation.desktop"
+    
+    # Install icon
+    install -Dm644 "src/icon.png" "$pkgdir/usr/share/icons/hicolor/48x48/apps/wine-prefix-automation.png"
+}

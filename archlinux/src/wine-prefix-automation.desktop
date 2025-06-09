@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Wine Prefix Automation
+Comment=Create and manage Wine prefixes with ease
+Exec=wine-prefix-automation
+Icon=wine-prefix-automation
+Terminal=false
+Type=Application
+Categories=System;Utility;Wine;
+Keywords=wine;prefix;windows;emulation;gaming;
+
