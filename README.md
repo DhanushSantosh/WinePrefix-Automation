@@ -25,7 +25,7 @@ Wine Prefix Automation simplifies the process of creating and managing Wine pref
 ```bash
 # Clone the repository
 git clone https://github.com/DhanushSantosh/WinePrefix-Automation.git
-cd wine-prefix-automation/archlinux
+cd WinePrefix-Automation/archlinux
 
 # Build and install the package
 makepkg -si
@@ -36,7 +36,7 @@ makepkg -si
 ```bash
 # Clone the repository
 git clone https://github.com/DhanushSantosh/WinePrefix-Automation.git
-cd wine-prefix-automation/universal
+cd WinePrefix-Automation/universal
 
 # Show all installation options
 sudo bash install.sh --help
@@ -66,7 +66,7 @@ Required packages:
 
 ### OPTIONAL : Package Installation by Distribution
 
-# Dependencies are automatically installed (if not, use the commands below according to your distro)
+#### Dependencies are automatically installed (if not, use the commands below according to your distro)
 
 ```bash
 # Arch Linux / Manjaro
@@ -101,7 +101,7 @@ Choose one of these methods:
 
 ## 📁 File Structure
 
-# For verification purposes
+#### For verification purposes
 
 ```
 /usr/bin/wine-prefix-automation           # Main executable (Arch)
