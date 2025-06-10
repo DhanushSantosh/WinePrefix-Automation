@@ -140,7 +140,7 @@ sudo pacman -R wine-prefix-automation
 ### Universal Installation
 
 ```bash
-cd wine-prefix-automation/universal
+cd WinePrefix-Automation/universal
 sudo bash install.sh uninstall
 ```
 
