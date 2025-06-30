@@ -1,4 +1,4 @@
-# 🍷 Wine Prefix Automation
+# 🍷 Wine Prefix Automation (for LUTRIS)
 
 > A user-friendly GUI tool for creating and managing Wine prefixes with ease.
 
